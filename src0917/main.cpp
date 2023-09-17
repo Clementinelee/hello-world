@@ -2,5 +2,6 @@
 
 int main()
 {
-    std::cout << "hello world" << std::endl;
+    auto result = (10 <=> 10) < 0;
+    std::cout << result << std::endl;
 }
